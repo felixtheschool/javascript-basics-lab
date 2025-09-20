@@ -18,17 +18,17 @@ console.log("Boolean Variable: " + booleanVar);
 console.log("Array Variable: " + arrayVar);
 console.log("Object Variable: " + JSON.stringify(objectVar));
 
-5+10; // Addition
-20-5; // Subtraction
-4*3; // Multiplication
-20/4; // Division
-10%3; // Modulus
-<5; // Less than
->10; // Greater than
-<=15; // Less than or equal to
->=20; // Greater than or equal to
-==10; // Equal to
-!=5; // Not equal to
-&&true; // Logical AND
-||false; // Logical OR
-!true; // Logical NOT
+console.log(5 + 10); // Addition
+console.log(20 - 5); // Subtraction
+console.log(4 * 3); // Multiplication
+console.log(20 / 4); // Division
+console.log(10 % 3); // Modulus
+console.log(3 < 5); // Less than
+console.log(2 > 10); // Greater than
+console.log(15 <= 15); // Less than or equal to
+console.log(25 >= 20); // Greater than or equal to
+console.log(10 == 10); // Equal to
+console.log(6 != 5); // Not equal to
+console.log(2 && true); // Logical AND
+console.log(false); // Logical OR
+console.log(!true); // Logical NOT
